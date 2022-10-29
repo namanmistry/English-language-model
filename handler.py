@@ -19,11 +19,11 @@ if __name__ == '__main__':
            norm_epsilon = 1e-5,
            learning_rate = 5e-4,
            log_dir = 'D:/Transformers Implementation/Language Model/Clean Project/logs/',
-           transfer_learning_batch = 5,
+           transfer_learning_batch = 1,
            models_save_path = 'D:/Transformers Implementation/Language Model/Clean Project/models/',
            model_checkpoint_path = 'D:/Transformers Implementation/Language Model/Clean Project/model_checkpoints/',
            epochs = 5,
-           batch_size = 32,
+           batch_size = 128,
            projector_dir = 'D:/Transformers Implementation/Language Model/Clean Project/projector/',
            )
     Language_model.main()
